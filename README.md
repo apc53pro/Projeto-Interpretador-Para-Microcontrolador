@@ -3,7 +3,7 @@ Intepretador básico escrito em C++ para microcontroladores AVR de 8bits que pos
 (testado em um Arduino Uno R3)
 
 Permite:
-- Gravação de variáveis na memória EEPROM interna do microcontrolador (Cada variável ocupa 20 Bytes: os 4 primeiros Bytes são o nome da variável e os outros 8 Bytes são o valor da variável)
+- Gravação de variáveis na memória EEPROM interna do microcontrolador (Cada variável ocupa 12 Bytes: os 4 primeiros Bytes são o nome da variável e os outros 8 Bytes são o valor da variável)
 - Realização de contas usando combinação de (VAR+VAR), (NumeroConstante+NumeroConstante), (VAR+NumeroConstante), (NumeroConstante+VAR), e atribuição do resultado dessas contas para outras variáveis
 - Ativação dos pinos GPIO do Arduino
 - Leitura da memória EEPROM, usando vários formatos diferentes
