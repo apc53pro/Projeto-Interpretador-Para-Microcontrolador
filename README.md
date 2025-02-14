@@ -1,6 +1,6 @@
-# Projeto-Interpretador-Para-AVR
-Intepretador básico escrito em C++ para microcontroladores AVR de 8bits que possibilita que o microcontrolador seja capaz de ser programado pelo usuário durante sua execução, sem que a memória FLASH tenha de ser reprogramada. 
-(testado em um Arduino Uno R3)
+# Projeto-Interpretador-Para-Microcontrolador
+Intepretador básico escrito em C++ para microcontroladores com pelo menos 128KB de flash que possibilita que o microcontrolador seja capaz de interpretar e rodar programas criados pelos a partir de arquivos TXT em um cartão microSD, sem que a memória FLASH tenha de ser reprogramada.
+(testado em um Arduino Uno R4)
 
 Permite:
 - Gravação de variáveis na memória EEPROM interna do microcontrolador (Cada variável ocupa 12 Bytes: os 4 primeiros Bytes são o nome da variável e os outros 8 Bytes são o valor da variável)
