@@ -1,5 +1,5 @@
 # Projeto-Interpretador-Para-Microcontrolador
-Intepretador básico escrito em C++ para microcontroladores com pelo menos 128KB de flash que possibilita que o microcontrolador seja capaz de interpretar e rodar programas criados pelos a partir de arquivos TXT em um cartão microSD, sem que a memória FLASH tenha de ser reprogramada.
+Intepretador básico escrito em C++ para microcontroladores com pelo menos 64KB de flash e pelo menos 500 bytes de EEPROM que possibilita que o microcontrolador seja capaz de interpretar e rodar programas criados pelos a partir de arquivos TXT em um cartão microSD, sem que a memória FLASH tenha de ser reprogramada. Nesse projeto foi decidido usar a memória EEPROM como uma espécie de memória RAM. O tamanho dessa memória é configurável dependendo da memória EEPROM disponível no microcontrolador usado.
 (testado em um Arduino Uno R4)
 
 Permite:
