@@ -8,9 +8,7 @@ Permite:
 - Ativação dos pinos GPIO do Arduino
 - Leitura da memória EEPROM, usando vários formatos diferentes
 - Apagar variáveis da memória
-- Suporte a teclado PS/2
-- Suporte a ler e executar código de cartões SD
-
+- Suporte a ler e executar programas a partir de cartões SD
 
 Comandos:
 - EEPROM_ERASE()       : Apaga todo o EEPROM interno. SINTAXE: EEPROM_ERASE() 
